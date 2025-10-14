@@ -32,8 +32,7 @@ drive.mount('/content/drive')
 %cd /content/yolov5
 !pip install -r requirements.txt --quiet
 
-bash
-Copiar código
+
 2. Treinar os modelos:
 - Modelo A (30 épocas):
   ```
@@ -46,8 +45,6 @@ Copiar código
 3. Fazer a inferência nas imagens de teste:
 python detect.py --weights runs/train/expB/weights/best.pt --source /content/drive/MyDrive/dataset_yolo/test --project runs/detect --name expB_test --exist-ok
 
-kotlin
-Copiar código
 4. Comparar os resultados lendo os arquivos results.csv dos dois treinos.
 5. Visualizar as imagens geradas nas pastas yolov5/runs/detect/expA_test e yolov5/runs/detect/expB_test.
 
@@ -62,7 +59,7 @@ Métricas aproximadas:
 | YOLOv5s (60) | 60 | 0.91 | 0.88 | 0.93 | 0.74 |
 
 Conclusões:
-O modelo de 60 épocas apresentou melhor desempenho geral, com métricas mais altas e detecções mais precisas. O de 30 épocas teve um bom resultado inicial, mas com mais erros em imagens de ângulo ou iluminação diferentes. Mesmo com um dataset pequeno (80 imagens), o YOLOv5 mostrou bom aprendizado. A precisão e o recall indicaram que o modelo conseguiu identificar corretamente a maioria dos objetos com poucos falsos positivos e falsos negativos. As imagens processadas mostraram caixas de detecção bem posicionadas e confiáveis. O aumento das épocas ajudou o modelo a aprender melhor as características das classes.
+O modelo de 60 épocas apresentou melhor desempenho geral, com métricas mais altas e detecções mais precisas. O de 30 épocas teve um bom resultado inicial, mas com mais erros em imagens de ângulo ou iluminação diferentes. Mesmo com um dataset pequeno, o YOLOv5 mostrou bom aprendizado. A precisão e o recall indicaram que o modelo conseguiu identificar corretamente a maioria dos objetos com poucos falsos positivos e falsos negativos. As imagens processadas mostraram caixas de detecção bem posicionadas e confiáveis. O aumento das épocas ajudou o modelo a aprender melhor as características das classes.
 
 Melhorias futuras:
 - Aumentar o número de imagens no dataset;
@@ -75,7 +72,7 @@ Links:
 - 📁 Dataset: https://drive.google.com/drive/folders/1C_-ohKDnivyeTXWgBuGyBrxXZXDTZhB-  
 - 📁 Resultados 30 épocas: https://drive.google.com/drive/folders/1uyQbL4YneRf2E-6yVJxL0UHO67Ct7mul  
 - 📁 Resultados 60 épocas: https://drive.google.com/drive/folders/1X0Rx18yCsEFk9wmiFi6lulVm5TyjxsEM  
-- 🎥 Vídeo de demonstração: (adicionar o link do YouTube)
+
 
 Vivian Amorim 565078
 Ana Carolina Belchior 565875
@@ -84,5 +81,4 @@ FIAP – Curso de Inteligência Artificial
 Fase 6 – FarmTech Solutions • 2025
 Em resumo, o projeto atingiu seu objetivo de demonstrar como um modelo de visão computacional pode identificar objetos específicos com boa precisão, validando o funcionamento prático da rede neural YOLOv5.
 
-Feito por **Vivian Amorim**  
-FIAP • Curso de Inteligência Artificial • Fase 6
+
