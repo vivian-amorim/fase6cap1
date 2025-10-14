@@ -71,7 +71,8 @@ Links:
 - 📘 Notebook no Colab: https://colab.research.google.com/drive/1vCccYQXcjkOQeCdrnp1lhiGr7IvJORoa  
 - 📁 Dataset: https://drive.google.com/drive/folders/1C_-ohKDnivyeTXWgBuGyBrxXZXDTZhB-  
 - 📁 Resultados 30 épocas: https://drive.google.com/drive/folders/1uyQbL4YneRf2E-6yVJxL0UHO67Ct7mul  
-- 📁 Resultados 60 épocas: https://drive.google.com/drive/folders/1X0Rx18yCsEFk9wmiFi6lulVm5TyjxsEM  
+- 📁 Resultados 60 épocas: https://drive.google.com/drive/folders/1X0Rx18yCsEFk9wmiFi6lulVm5TyjxsEM
+- Link do video: https://youtu.be/d6UWG_kzj4o
 
 
 Vivian Amorim 565078
